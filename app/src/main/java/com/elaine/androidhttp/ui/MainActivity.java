@@ -15,6 +15,9 @@ import java.util.List;
 
 /**
  * 一个列表数据的展示
+ * 注意：
+ * 1.网络请求
+ * 2.混淆文件中的TODO
  *
  * @author elaine
  * @date 2020/3/23
