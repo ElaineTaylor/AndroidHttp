@@ -11,6 +11,12 @@ import retrofit2.http.POST;
 
 import static com.elaine.androidhttp.http.HttpUrl.GET_FILM_LIST;
 
+/**
+ * 请求接口
+ *
+ * @author elaine
+ * @date 2020/3/23
+ */
 public interface HttpService {
 
     @FormUrlEncoded

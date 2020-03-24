@@ -11,6 +11,10 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 import static com.elaine.androidhttp.http.HttpUrl.BASE_URL;
 
+/**
+ * @author elaine
+ * @date 2020/3/23
+ */
 public class HttpApi {
     private static HttpApi httpApi;
     private HttpService httpService;
@@ -44,6 +48,9 @@ public class HttpApi {
         return httpService;
     }
 
+    /**
+     * 可用于切换debug和release环境切换
+     */
     public static void clearHttpApi() {
         if (httpApi != null) {
             httpApi = null;

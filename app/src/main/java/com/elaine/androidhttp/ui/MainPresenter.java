@@ -10,6 +10,8 @@ import com.elaine.androidhttp.ui.base.IBase;
 import java.util.List;
 
 /**
+ * 请求presenter
+ *
  * @author elaine
  * @date 2020/3/23
  */

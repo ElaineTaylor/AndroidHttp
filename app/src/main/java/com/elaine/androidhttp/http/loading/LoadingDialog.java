@@ -7,6 +7,12 @@ import android.widget.TextView;
 import com.elaine.androidhttp.R;
 import com.wang.avi.AVLoadingIndicatorView;
 
+/**
+ * 加载中的对话框(仿ios风格)
+ *
+ * @author elaine
+ * @date 2020/3/23
+ */
 public class LoadingDialog extends AlertDialog {
 
     private AVLoadingIndicatorView avi;
@@ -21,7 +27,7 @@ public class LoadingDialog extends AlertDialog {
         super.onStart();
         this.setContentView(R.layout.layout_loading_dialog);
         avi = this.findViewById(R.id.avi);
-        mTvTip =this.findViewById(R.id.tv_tip);
+        mTvTip = this.findViewById(R.id.tv_tip);
     }
 
     public void setTip(String tip) {

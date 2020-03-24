@@ -13,13 +13,18 @@ import com.elaine.androidhttp.bean.SubjectsBean;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 一个列表数据的展示
+ *
+ * @author elaine
+ * @date 2020/3/23
+ */
 public class MainActivity extends AppCompatActivity implements IMainView {
     private RecyclerView mRvMain;
     private MainAdapter adapter;
     private MainPresenter presenter;
     private int start = 1, count = 10;
     private List<SubjectsBean> subjectsBeans;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +72,4 @@ public class MainActivity extends AppCompatActivity implements IMainView {
     public void onFailed(String msg) {
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
     }
-
-
 }

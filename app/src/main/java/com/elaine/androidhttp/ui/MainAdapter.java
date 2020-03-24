@@ -17,6 +17,8 @@ import com.elaine.androidhttp.bean.SubjectsBean;
 import java.util.List;
 
 /**
+ * adapter
+ *
  * @author elaine
  * @date 2020/3/23
  */

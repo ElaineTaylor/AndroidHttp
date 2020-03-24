@@ -21,6 +21,16 @@ import java.text.ParseException;
 import io.reactivex.observers.DisposableObserver;
 import retrofit2.HttpException;
 
+/**
+ * 接口返回数据统一处理工具
+ * <p>
+ * 实现加载中对话框（可取消）
+ * <p>
+ * 对网络请求失败的情况做统一处理
+ *
+ * @author elaine
+ * @date 2020/3/23
+ */
 public abstract class MyObserver<T> extends DisposableObserver<T> {
     private static ObjectMapper objectMapper;
     private boolean isShowDialog = false;

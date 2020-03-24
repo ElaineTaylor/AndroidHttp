@@ -5,6 +5,8 @@ import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
 /**
+ * 详情类
+ *
  * @author elaine
  * @date 2020/3/23
  */

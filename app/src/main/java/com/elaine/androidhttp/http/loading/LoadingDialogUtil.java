@@ -4,6 +4,12 @@ import android.content.Context;
 
 import com.elaine.androidhttp.R;
 
+/**
+ * 加载中对话框的控制工具类
+ *
+ * @author elaine
+ * @date 2020/3/23
+ */
 public class LoadingDialogUtil {
     private LoadingDialog loadingDialog;
 

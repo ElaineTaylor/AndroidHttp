@@ -1,6 +1,23 @@
 package com.elaine.androidhttp.bean;
 
 /**
+ * 基础类
+ *一般服务的返回的数据如下：
+ * {
+ *     msg:"请求成功";
+ *     code:200;
+ *     data:{"userId":"200001","nickname":"elaine"}
+ * }
+ *
+ * 根据返回的数据可以抽象出一个基础类,然后添加get()和set()方法
+ * 例如：
+ * public class BaseBean{
+ *    private String msg;
+ *    private int code;
+ *    private Object data;
+ * }
+ *
+ *
  * @author elaine
  * @date 2020/3/23
  */

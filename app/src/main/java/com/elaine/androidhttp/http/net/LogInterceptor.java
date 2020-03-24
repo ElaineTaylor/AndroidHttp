@@ -9,6 +9,14 @@ import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
 
+/**
+ * 请求日志打印
+ * 1、打印请求地址+参数
+ * 2、打印返回的数据
+ *
+ * @author elaine
+ * @date 2020/3/23
+ */
 public class LogInterceptor implements Interceptor {
     @Override
     public Response intercept(Chain chain) throws IOException {
